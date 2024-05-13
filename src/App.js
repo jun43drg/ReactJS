@@ -1,19 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import StudentManagement from "./Components/StudentManagement/StudentManagement.js";
+
 const App = () => {
-  const x = 5;
-  const y = 2;
   return (
-    <div>
-      <Sum a={x} b={y} />
-    </div>
+    <>
+      <StudentManagement />
+    </>
   );
-};
-
-const Sum = (props) => {
-  console.log(props); // {a: 1, b: 2}
-
-  return <div>The value is: {props.a + props.b}</div>;
 };
 
 export default App;
