@@ -11,3 +11,8 @@
   border-radius: 10px;
   background: #aba9a9;
 }
+.student-controller {
+  text-align: right;
+  padding: 10px;
+  gap: 10px;
+}
